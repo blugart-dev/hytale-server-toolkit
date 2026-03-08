@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# PowerShell scripts use CRLF
+*.ps1 text eol=crlf
+
+# Markdown and text
+*.md text eol=lf
+LICENSE text eol=lf

@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Hytale server runtime files (should never be in the repo)
+*.jar
+*.zip
+*.tar.gz
+*.enc
+auth.enc
+universe/
+logs/
+INSTALL_SUMMARY.txt
+jvm.options
